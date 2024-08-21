@@ -1,0 +1,62 @@
+.UserProfile{
+    width: 100%;
+    min-height: 100vh;
+    color: #333333;
+}
+.container{
+    width: 90%;  
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left !important;
+}
+.UserProfile .container h3{
+    width: 50%;
+    margin: auto; 
+    color: #000000;
+    text-align: z !important;
+}
+.userEditProfile{
+    text-align: left;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.userEditProfile input {
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+    border: 0.8px solid #ccc;
+    border-radius: 1px;
+    margin-top: 1rem;
+  }
+
+.update_profile {
+    display: block;
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    background-color: #7367f0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.BuyedVideoList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+}
+.Loading{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

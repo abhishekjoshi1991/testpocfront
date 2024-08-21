@@ -1,0 +1,95 @@
+/* .resultcard{
+  margin: auto;
+  width: 72%;
+  display: flex;
+  margin-top: 1rem;
+  justify-content:space-between;
+  align-items: center;
+  height: 7rem;
+  border-radius: 1rem;
+  padding: 0rem 2rem;
+  background-color: #e1e1e1;
+  
+ 
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+
+
+}
+.result_card_buttons{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  align-content: center;
+}
+.result_card_buttons .result_radio_icons{
+  aspect-ratio: 1/1;
+  width: 3rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.correcticon{
+  aspect-ratio: 1/1;
+  width: 4.2rem !important;
+  margin-left: 1rem;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.resultcard_link {
+display: flex;
+gap: 3rem;
+}
+.resultcard_link a{
+  text-decoration: underline;
+  color: rgb(109, 53, 29);
+}
+*/
+
+
+.ExplainCard {
+  margin: auto;
+  min-width: 35%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 1rem;
+  text-align: left;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  /* background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% ); */
+  min-height: 36rem;
+  height: fit-content;
+}
+
+.ExplainCard > div {
+  width: 100% !important;
+  padding: 0.5rem 0;
+  display: flex !important;
+  gap: 2rem;
+  justify-content: space-between;
+}
+.ExplainCard div p {
+  width: 100%;
+  display: flex;
+}
+
+.ExplainCard b {
+  min-width: 10rem;
+  display: inline-block;
+  color: #333333;
+  font-weight: 800;
+
+}
+/* .resultcard.disabled {
+z-index: 10;
+  background-color: #ffffff !important;
+
+}
+.disabled-link {
+  pointer-events: none;
+
+  color: #cccccc; 
+}  */
